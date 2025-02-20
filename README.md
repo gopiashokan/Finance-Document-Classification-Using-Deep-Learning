@@ -107,10 +107,11 @@ To use this project, follow these steps:
 #### Model Deployment and Inference:
 
    - **Hugging Face Hub Integration:** The Fine-Tuned model and tokenizer are deployed on the Hugging Face Hub using Access Token, allowing easy accessibility and inference through APIs.
+     <br> *Hugging Face Hub:* [https://huggingface.co/gopiashokan/Financial-Document-Classification-using-Deep-Learning](https://huggingface.co/gopiashokan/Financial-Document-Classification-using-Deep-Learning)
 
    - **Application Development:** A user-friendly Streamlit application was developed to allow users to upload new HTML documents for classification. The application provided a simple interface for users to interact with, displaying the predicted class and associated confidence scores. Additionally, the application showcased the uploaded document, enhancing the interpretability of the classification results.
 
-   - **API-Based Inference:** The Streamlit application was deployed on the Hugging Face platform, enabling easy access for users to utilize the model for document classification. By deploying on Hugging Face, users can seamlessly upload new HTML documents and sends extracted text to the Hugging Face API, retrieves model predictions and displays the highest confidence class along with its score.
+   - **API-based Inference:** The Streamlit application was deployed on the Hugging Face platform, enabling easy access for users to utilize the model for document classification. By deploying on Hugging Face, users can seamlessly upload new HTML documents and sends extracted text to the Hugging Face API, retrieves model predictions and displays the highest confidence class along with its score.
 
 ![](https://github.com/gopiashokan/Finance-Document-Classification-Using-Deep-Learning/blob/main/image/Inference.png)
 
