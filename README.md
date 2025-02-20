@@ -95,7 +95,7 @@ To use this project, follow these steps:
 
 #### Model Training:
 
-   - **Pretrained Model:** The FinBERT is a domain-specific BERT model for financial texts, is loaded and **fine-tuned** using transfer learning on the custom dataset for improving classification accuracy.
+   - **Pretrained Model:** The FinBERT is a domain-specific BERT model for financial texts, is loaded and **Fine-tuned** using Transfer Learning on the custom dataset for improving classification accuracy.
 
    - **Optimization Strategy:** The model is compiled using the `Adam` optimizer, `SparseCategoricalCrossentropy` loss function, and `Accuracy` as the evaluation metric, optimizing performance across multiple financial document classes.
 
@@ -106,7 +106,7 @@ To use this project, follow these steps:
 
 #### Model Deployment and Inference:
 
-   - **Hugging Face Hub Integration:** The Fine-Tuned model and tokenizer are deployed on the Hugging Face Hub using Access Token, allowing easy accessibility and inference through APIs.
+   - **Hugging Face Hub Integration:** The Fine-tuned model and tokenizer are deployed on the Hugging Face Hub using Access Token, allowing easy accessibility and inference through APIs.
      <br> *Hugging Face Hub:* [https://huggingface.co/gopiashokan/Financial-Document-Classification-using-Deep-Learning](https://huggingface.co/gopiashokan/Financial-Document-Classification-using-Deep-Learning)
 
    - **Application Development:** A user-friendly Streamlit application was developed to allow users to upload new HTML documents for classification. The application provided a simple interface for users to interact with, displaying the predicted class and associated confidence scores. Additionally, the application showcased the uploaded document, enhancing the interpretability of the classification results.
