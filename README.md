@@ -32,6 +32,7 @@ Managing and classifying financial documents manually is both time-consuming and
 - Seaborn
 - Streamlit
 - Hugging Face
+- Application Programming Interface (API)
 
 <br />
 
